@@ -95,6 +95,9 @@ public class ControladorPrincipal {
         for(int i=0; i < listaCliente.size(); i++){
             listaCliente.get(i).mostrar();
         }
+        /*for(Cliente clientess : listaCliente){ otra forma de mostrarlo
+            clientess.mostrar();
+        }*/
         System.out.println("Lista de empleados:");
         for(int i=0; i < listaEmp.size(); i++){
             listaEmp.get(i).mostrar();
